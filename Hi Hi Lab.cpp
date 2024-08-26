@@ -34,7 +34,7 @@ cout << "\nComparing " << str1 << " to " << str2 << " results in: " << strcmp_ca
 cout << "\nComparing " << str2 << " to " << str1 << " results in: " << strcmp_case_insensitive(str2,str1);  //testing case insensitivity in the opposite direction
 cout << "\nComparing " << str1 << " to " << str3 << " results in: " << strcmp_case_insensitive(str1,str3);  //different length strings
 cout << "\nComparing " << str1 << " to " << str4 << " results in: " << strcmp_case_insensitive(str1,str4);   //diffrent value strings
-cout << "\nComparing " << str1 << " to empty " << str5 << " results in: " << strcmp_case_insensitive(str1,str5);    //non empty sting to an empty string
+cout << "\nComparing " << str1 << " to empty string: " << str5 << " results in: " << strcmp_case_insensitive(str1,str5);    //non empty sting to an empty string
 cout << "\nComparing two empty strings: " << str5 << " and " << str5 << " results in: " << strcmp_case_insensitive(str5,str5); //empty to empty
 cout << "\nComparing " << str1 << " to " << str7 << " results in: " << strcmp_case_insensitive(str1,str7);  //testing case insensitivity
 cout << "\nComparing " << str1 << " to " << str8 << " results in: " << strcmp_case_insensitive(str1,str8); //similar start but different lengths
